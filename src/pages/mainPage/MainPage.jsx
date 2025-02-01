@@ -45,7 +45,6 @@ const MainPage = () => {
       {error && <p style={{ color: "red" }}>Ошибка:{error}</p>}
 
       <div className="footer_list">
-        {" "}
         <div className="pokemonList">
           {pokemons.length > 0
             ? pokemons.map((pokemon) => (
